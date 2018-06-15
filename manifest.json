@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Clear Clutter",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+     "matches": [
+       "https://stackoverflow.com/*"
+     ],
+     "js": ["js/jquery-2.2.4.min.js","js/clear_clutter.js"]
+    }
+   ],
+
+   "browser_action": {
+     "default_icon": "assets/icon.png"
+   },
+   "permissions": [
+      "storage"
+   ]
+}
