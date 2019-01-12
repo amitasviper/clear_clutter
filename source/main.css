@@ -1,0 +1,10 @@
+.dark-theme {
+	background: #606060 !important;
+	/*background: #000 !important;*/
+	font-weight: bold !important;
+	/*color: #FFF !important;*/
+}
+
+.hide-element {
+	display: none !important;
+}
