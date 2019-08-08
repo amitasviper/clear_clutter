@@ -9,6 +9,9 @@
      "matches": [
        "<all_urls>"
      ],
+     "exclude_matches": [
+       "https://courses.uscden.net/"
+     ],
      "js": ["js/jquery-2.2.4.min.js", "toggle.js"],
      "css": [ "main.css" ]
     }
