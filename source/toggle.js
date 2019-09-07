@@ -65,7 +65,7 @@ chrome.storage.sync.get(['counter'], function(result) {
   	value = 0;
   }
   
-  if(value % 2 === 0) {
+  if(value % 2 === 1) {
   	// document.body.classList.add("dark-theme");
   	clearClutter(true);
 	// document.body.style.background = "#606060";

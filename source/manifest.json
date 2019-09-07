@@ -12,7 +12,7 @@
      "exclude_matches": [
        "https://courses.uscden.net/"
      ],
-     "js": ["js/jquery-2.2.4.min.js", "toggle.js"],
+     "js": ["js/jquery-2.2.4.min.js"],
      "css": [ "main.css" ]
     }
    ],
